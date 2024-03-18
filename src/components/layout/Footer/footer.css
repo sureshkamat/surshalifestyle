@@ -1,0 +1,70 @@
+footer{
+    margin-top: 20vmax;
+    padding: 2vmax;
+    background-color: rgb(34,33,33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.leftfooter{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftfooter>h4{
+    text-align: center;
+    font-size: 1vmax;
+}
+.leftfooter>p{
+    text-align: center;
+    font-size: 1.2vmax;
+}
+.leftfooter>img{
+    width: 20vmax;
+    margin: 1vmax;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.midfooter{
+    width: 60%;
+    text-align: center;
+}
+.midfooter>h1{
+    font-size: 4vmax;
+    color: brown;
+
+}
+.midfooter>p{
+    max-width: 60%;
+    margin: 1vmax auto;
+
+}
+
+.rightfooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightfooter>h4{
+font-size: 2vmax;
+text-decoration: underline;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rightfooter>a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    color: white;
+    margin: 0.5vmax;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.rightfooter>a:hover{
+    color:brown;
+}
+
+@media screen and (max-width:600px) {
+    
+}

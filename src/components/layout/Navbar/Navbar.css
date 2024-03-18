@@ -1,0 +1,29 @@
+.speedDialIcon{
+    width:56px;
+    height:56px;
+    border-radius: 100%;
+
+}
+.speedDial{
+    position:fixed;
+    right:0.5vmax;
+    top:0.2vmax;
+    margin-left: 10px;
+}
+
+.small {
+    display: none; /* Hide the "Menu" button by default */
+    margin-right: 50px;
+  }
+
+
+@media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+    .small {
+        display: block; /* Display the "Menu" button for small screens */
+      }
+  }
+  
+  
